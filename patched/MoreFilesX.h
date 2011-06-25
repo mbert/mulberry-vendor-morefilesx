@@ -1514,11 +1514,13 @@ FSGetVolMountInfo(
 
 #pragma mark FSVolumeMount
 
+#if 0
 OSErr
 FSVolumeMount(
 	const void *volMountInfo,
 	FSVolumeRefNum *volRefNum);
-
+#endif
+    
 /*
 	The VolumeMount function mounts a volume using a volume mounting
 	information record.
